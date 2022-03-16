@@ -1,0 +1,25 @@
+.common {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.navbarImage {
+  margin-left: -15px;
+
+  border-radius: 50%;
+}
+.navbarLi {
+  display: flex;
+  margin: 3px;
+
+  align-items: center;
+}
+.liveEvent {
+  font-weight: bolder;
+  color: white;
+}
+.title {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: white;
+}

@@ -1,0 +1,96 @@
+.card-component {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-component-cover {
+  width: 200px;
+  height: 328px;
+  margin: 0px 10px;
+  /* margin-top: 30px; */
+  position: relative;
+}
+.card-component-image {
+  margin: 0px 18px;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.card-logo {
+  border-radius: 50%;
+  margin-left: 175px;
+  max-width: 100px;
+  top: 10px;
+  position: absolute;
+}
+.card-live {
+  background-color: red;
+  color: white;
+  max-width: 100px;
+  top: 10px;
+  margin-left: 20px;
+  position: absolute;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+}
+.card-viewers {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 22px;
+}
+.card-ellipsis {
+  display: flex;
+  align-items: center;
+}
+.ellipsis {
+  margin-right: -20px;
+}
+.card-name {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-left: 23px;
+}
+.card-time {
+  display: flex;
+  font-size: 12px;
+  margin-left: 14px;
+  align-items: center;
+}
+.timer {
+  font-size: 20px;
+  margin: 0px 8px;
+  margin-top: 10px;
+}
+.card-link {
+  color: blue;
+  font-size: 20px;
+  margin-left: 35px;
+  margin-top: 120px;
+  margin-bottom: 45px;
+}
+@media (max-width: 1350px) {
+  .card-component-cover {
+    margin-bottom: 120px;
+  }
+  .card-link {
+    margin: 10px 10px;
+    margin-left: 35px;
+  }
+}
